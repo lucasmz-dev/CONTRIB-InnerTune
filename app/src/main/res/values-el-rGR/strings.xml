@@ -287,14 +287,4 @@
     <string name="new_version_available">Νέα διαθέσιμη έκδοση</string>
     <string name="translation_models">Μοντέλα Μετάφρασης</string>
     <string name="clear_translation_models">Εκκάθαριση μοντέλων μετάφρασης</string>
-    <string name="add_all_to_library"></string>
-    <string name="disable_screenshot_desc"></string>
-    <string name="auto_load_more"></string>
-    <string name="remove_all_from_library"></string>
-    <string name="search_history"></string>
-    <string name="disable_screenshot"></string>
-    <string name="your_youtube_playlists"></string>
-    <string name="listen_history"></string>
-    <string name="other_versions"></string>
-    <string name="auto_load_more_desc"></string>
 </resources>
