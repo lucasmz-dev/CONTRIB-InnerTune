@@ -91,6 +91,7 @@ android {
     }
     lint {
         disable += "MissingTranslation"
+        disable += "MissingQuantity"
     }
     // avoid DEPENDENCY_INFO_BLOCK for IzzyOnDroid
     dependenciesInfo {
