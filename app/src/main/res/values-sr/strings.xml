@@ -182,7 +182,7 @@
     <string name="proxy_url">URL Proxy-ja</string>
     <string name="player_and_audio">Plejer i zvuk</string>
     <string name="audio_quality">Kvalitet zvuka</string>
-    <string name="audio_quality_auto">Auto</string>
+    <string name="audio_quality_auto">Automatski</string>
     <string name="audio_quality_high">Visoko</string>
     <string name="audio_quality_low">Nisko</string>
     <string name="persistent_queue">Uporan red</string>
