@@ -63,4 +63,7 @@
     <string name="edit">Editar</string>
     <string name="start_radio">Iniciar radio</string>
     <string name="play">Reproducir</string>
+    <string name="add_to_library">Añadir a la biblioteca</string>
+    <string name="play_next">Reproducir siguiente</string>
+    <string name="add_to_queue">Añadir a la cola</string>
 </resources>
