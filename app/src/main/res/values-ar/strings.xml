@@ -1,17 +1,16 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Bottom navigation -->
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:ns0="http://schemas.android.com/tools">
+    
     <string name="home">الصفحة الرئيسية</string>
     <string name="songs">الأغاني</string>
     <string name="artists">الفنانون</string>
     <string name="albums">الألبومات</string>
     <string name="playlists">قوائم التشغيل</string>
-    <string name="explore">الإستكشاف</string>
-    <!-- Top bar -->
-    <plurals name="n_selected" tools:ignore="MissingQuantity">
+    <plurals name="n_selected" ns0:ignore="MissingQuantity">
         <item quantity="other">%d محددة</item>
     </plurals>
 
-    <!-- Home -->
+    
     <string name="history">السجل</string>
     <string name="stats">الإحصائيات</string>
     <string name="mood_and_genres">المزاج والأنواع</string>
@@ -22,17 +21,17 @@
     <string name="forgotten_favorites">الإستماع مجدداً</string>
     <string name="similar_to">مشابه لـ</string>
     <string name="keep_listening">استمر في الاستماع</string>
-    <string name="your_ytb_playlists">قوائم التشغيل الخاصة بك</string>
-    <!-- History -->
+    <string name="your_youtube_playlists">قوائم التشغيل الخاصة بك</string>
+    
     <string name="today">اليوم</string>
     <string name="yesterday">أمس</string>
     <string name="this_week">هذا الأسبوع</string>
     <string name="last_week">الأسبوع الماضي</string>
-    <!-- Stats -->
+    
     <string name="most_played_songs">الأغاني الأكثر تشغيلًا</string>
     <string name="most_played_artists">الفنانون الأكثر تشغيلًا</string>
     <string name="most_played_albums">الألبومات الأكثر تشغيلًا</string>
-    <!-- Search -->
+    
     <string name="search">بحث</string>
     <string name="search_yt_music">البحث في موسيقى يوتيوب…</string>
     <string name="search_library">بحث في المكتبة…</string>
@@ -49,27 +48,23 @@
     <string name="filter_featured_playlists">قوائم التشغيل المميزة</string>
     <string name="filter_bookmarked">المفضلة</string>
     <string name="no_results_found">لم يتم العثور على نتائج</string>
-    <!-- Artist screen -->
+    
     <string name="from_your_library">من مكتبتك</string>
-    <!-- Album screen -->
+    
     <string name="other_versions">إصدارات أخرى</string>
     
-    <!-- Library -->
-    <string name="liked">الأغاني المفضلة</string>
-    <string name="offline">التحميلات</string>
-    <string name="my_top">الأعلي إستماع : </string>
-    <!-- Playlist -->
+    
     <string name="liked_songs">الأغاني المفضلة</string>
     <string name="downloaded_songs">الأغاني المحمّلة</string>
     <string name="playlist_is_empty">قائمة التشغيل فارغة</string>
     <string name="remove_download_playlist_confirm">هل تريد حقًا إزالة جميع أغاني قائمة التشغيل "%s" من مساحة الأغاني المحملة؟</string>
     <string name="delete_playlist_confirm">هل تريد حقًا حذف قائمة التشغيل "%s"؟</string>
-    <!-- Button -->
+    
     <string name="retry">إعادة المحاولة</string>
     <string name="radio">راديو</string>
     <string name="shuffle">تشغيل عشوائي</string>
     <string name="reset">إعادة تعيين</string>
-    <!-- Menu -->
+    
     <string name="details">التفاصيل</string>
     <string name="edit">تعديل</string>
     <string name="start_radio">بدء الراديو</string>
@@ -92,11 +87,7 @@
     <string name="search_online">البحث على الإنترنت</string>
     <string name="sync">مزامنة</string>
     <string name="advanced">متقدم</string>
-    <string name="select">تحديد الكل</string>
-    <string name="like_all">الإعجاب بالكل</string>
-    <!-- Sort menu -->
     <string name="sort_by_create_date">تاريخ الإضافة</string>
-    <string name="sort_by_last_updated">تاريخ التحديث</string>
     <string name="sort_by_name">الاسم</string>
     <string name="sort_by_artist">الفنان</string>
     <string name="sort_by_year">السنة</string>
@@ -104,7 +95,7 @@
     <string name="sort_by_length">المدة</string>
     <string name="sort_by_play_time">وقت التشغيل</string>
     <string name="sort_by_custom">ترتيب مخصص</string>
-    <!-- Dialog -->
+    
     <string name="media_id">معرف الوسائط</string>
     <string name="mime_type">نوع MIME</string>
     <string name="codecs">الترميزات</string>
@@ -128,53 +119,47 @@
     <string name="create_playlist">إنشاء قائمة تشغيل</string>
     <string name="playlist_name">اسم قائمة التشغيل</string>
     <string name="error_playlist_name_empty">لا يمكن أن يكون اسم قائمة التشغيل فارغًا.</string>
-    <string name="already_in_playlist">موجود بالفعل في قائمة التشغيل:</string>
     <string name="edit_artist">تعديل الفنان</string>
     <string name="artist_name">اسم الفنان</string>
     <string name="error_artist_name_empty">لا يمكن أن يكون اسم الفنان فارغًا.</string>
-    <!-- Noun -->
-    <plurals name="n_song" tools:ignore="MissingQuantity">
+    
+    <plurals name="n_song" ns0:ignore="MissingQuantity">
         <item quantity="one">%d أغنية</item>
         <item quantity="other">%d من الأغاني</item>
     </plurals> 
-    <plurals name="n_artist" tools:ignore="MissingQuantity">
+    <plurals name="n_artist" ns0:ignore="MissingQuantity">
         <item quantity="one">%d فنان</item>
         <item quantity="other">%d من الفنانين</item>
     </plurals>
-    <plurals name="n_album" tools:ignore="MissingQuantity">
+    <plurals name="n_album" ns0:ignore="MissingQuantity">
         <item quantity="one">%d ألبوم</item>
         <item quantity="other">%d من الألبومات</item>
     </plurals>
-    <plurals name="n_playlist" tools:ignore="MissingQuantity">
+    <plurals name="n_playlist" ns0:ignore="MissingQuantity">
         <item quantity="one">%d قائمة تشغيل</item>
         <item quantity="other">%d من قوائم التشغيل</item>
     </plurals>
-    <plurals name="n_week" tools:ignore="MissingQuantity">
+    <plurals name="n_week" ns0:ignore="MissingQuantity">
         <item quantity="one">%d أسبوع</item>
         <item quantity="other">%d من الأسابيع</item>
     </plurals>
-    <plurals name="n_month" tools:ignore="MissingQuantity">
+    <plurals name="n_month" ns0:ignore="MissingQuantity">
         <item quantity="one">%d شهر</item>
         <item quantity="other">%d من الأشهر</item>
     </plurals>
-    <plurals name="n_year" tools:ignore="MissingQuantity">
+    <plurals name="n_year" ns0:ignore="MissingQuantity">
         <item quantity="one">%d سنة</item>
         <item quantity="other">%d من السنوات</item>
     </plurals>
-    <plurals name="n_element" tools:ignore="MissingQuantity">
-        <item quantity="one">%d عنصر</item>
-        <item quantity="other">%d من العناصر</item>
-    </plurals>
-    <!-- شريط التنبيه -->
     <string name="playlist_imported">تم استيراد قائمة التشغيل</string>
     <string name="removed_song_from_playlist">تمت إزالة \"%s\" من قائمة التشغيل</string>
     <string name="playlist_synced">تمت مزامنة قائمة التشغيل</string>
     <string name="undo">تراجع</string>
-    <!-- المشغل -->
+    
     <string name="lyrics_not_found">لم يتم العثور على كلمات الأغاني</string>
     <string name="sleep_timer">مؤقت النوم</string>
     <string name="end_of_song">نهاية الأغنية</string>
-    <plurals name="minute" tools:ignore="MissingQuantity">
+    <plurals name="minute" ns0:ignore="MissingQuantity">
         <item quantity="one">%d دقيقة</item>
         <item quantity="other">%d من الدقائق</item>
     </plurals>
@@ -182,7 +167,7 @@
     <string name="error_no_internet">لا يوجد اتصال بالشبكة</string>
     <string name="error_timeout">انتهاء المهلة</string>
     <string name="error_unknown">خطأ غير معروف</string>
-    <!-- إجراءات المشغل -->
+    
     <string name="action_like">إعجاب</string>
     <string name="action_remove_like">إزالة الإعجاب</string>
     <string name="action_shuffle_on">تشغيل التبديل العشوائي</string>
@@ -190,19 +175,15 @@
     <string name="repeat_mode_off">إيقاف وضع التكرار</string>
     <string name="repeat_mode_one">تكرار الأغنية الحالية</string>
     <string name="repeat_mode_all">تكرار قائمة الانتظار</string>
-    <!-- عنوان قائمة الانتظار -->
+    
     <string name="queue_all_songs">جميع الأغاني</string>
     <string name="queue_searched_songs">الأغاني التي تم البحث عنها</string>
-    <!-- اسم الإشعار -->
+    
     <string name="music_player">مشغل الموسيقى</string>
-    <!-- الإعدادات -->
+    
     <string name="settings">الإعدادات</string>
     <string name="appearance">المظهر</string>
     <string name="enable_dynamic_theme">تفعيل السمة الديناميكية</string>
-    <string name="player_background_style">نمط خلفية المشغل</string>
-    <string name="gradient">ألوان متدرجة</string>
-    <string name="follow_theme">اتباع السيم</string>
-    <string name="enable_squiggly_slider">تمكين الشريط المتعرج</string>
     <string name="dark_theme">السمة الداكنة</string>
     <string name="dark_theme_on">تشغيل</string>
     <string name="dark_theme_off">إيقاف</string>
@@ -219,13 +200,9 @@
     <string name="content_language">لغة المحتوى الافتراضية</string>
     <string name="content_country">بلد المحتوى الافتراضي</string>
     <string name="system_default">إعدادات النظام الافتراضية</string>
-    <string name="proxy">الوكيل</string>
     <string name="enable_proxy">تفعيل الوكيل</string>
     <string name="proxy_type">نوع الوكيل</string>
     <string name="proxy_url">عنوان URL للوكيل</string>
-    <string name="default_lib_chips">تغيير الشريحة الافتراضية للمكتبة</string>
-    <string name="set_quick_picks">ضبط الاختيارات السريعة</string>
-    <string name="last_song_listened">بناءً على آخر أغنية تم الاستماع إليها</string>
     <string name="restart_to_take_effect">أعد التشغيل لتفعيل التغييرات</string>
     <string name="player_and_audio">المشغل والصوت</string>
     <string name="audio_quality">جودة الصوت</string>
@@ -269,10 +246,4 @@
     <string name="new_version_available">إصدار جديد متاح</string>
     <string name="translation_models">نماذج الترجمة</string>
     <string name="clear_translation_models">مسح نماذج الترجمة</string>
-    <string name="all_time">طوال الوقت</string>
-    <string name="past_24_hours">آخر 24 ساعة</string>
-    <string name="past_week">الأسبوع الماضي</string>
-    <string name="past_month">الشهر الماضي</string>
-    <string name="past_year">السنة الماضية</string>
-    <string name="top_length">طول قائمة الأغاني المفضلة الخاصة بي</string>
-</resources>
+    </resources>

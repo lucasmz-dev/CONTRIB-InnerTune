@@ -1,18 +1,16 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Bottom navigation -->
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:ns0="http://schemas.android.com/tools">
+    
     <string name="home">首页</string>
     <string name="songs">歌曲</string>
     <string name="artists">音乐人</string>
     <string name="albums">专辑</string>
     <string name="playlists">播放列表</string>
-    <string name="explore">探索</string>
-
-    <!-- Top bar -->
     <plurals name="n_selected">
         <item quantity="other">已选择 %d 个项目</item>
     </plurals>
 
-    <!-- Home -->
+    
     <string name="history">历史记录</string>
     <string name="stats">统计</string>
     <string name="mood_and_genres">氛围和流派</string>
@@ -23,20 +21,20 @@
     <string name="forgotten_favorites">被遗忘的最爱</string>
     <string name="similar_to">类似于：</string>
     <string name="keep_listening">继续聆听</string>
-    <string name="your_ytb_playlists">你的 YouTube 播放列表</string>
+    <string name="your_youtube_playlists">你的 YouTube 播放列表</string>
     
-    <!-- History -->
+    
     <string name="today">今天</string>
     <string name="yesterday">昨天</string>
     <string name="this_week">这周</string>
     <string name="last_week">上周</string>
 
-    <!-- Stats -->
+    
     <string name="most_played_songs">最常播放的歌曲</string>
     <string name="most_played_artists">最常播放的艺术家</string>
     <string name="most_played_albums">最常播放的专辑</string>
 
-    <!-- Search -->
+    
     <string name="search">搜索</string>
     <string name="search_yt_music">搜索 YouTube Music…</string>
     <string name="search_library">搜索媒体库…</string>
@@ -54,32 +52,26 @@
     <string name="filter_bookmarked">书签</string>
     <string name="no_results_found">找不到结果</string>
 
-    <!-- Artist screen -->
+    
     <string name="from_your_library">来自您的媒体库</string>
 
-    <!-- Album screen -->
+    
     <string name="other_versions">其他版本</string>
 
-    <!-- Library -->
-    <string name="liked">喜欢</string>
-    <string name="offline">下载</string>
-    <string name="my_top">我的 Top</string>
-
-
-    <!-- Playlist -->
+    
     <string name="liked_songs">喜欢的歌曲</string>
     <string name="downloaded_songs">已下载的歌曲</string>
     <string name="playlist_is_empty">播放列表为空</string>
     <string name="remove_download_playlist_confirm">确定要删除「%s」的下载吗？</string>
     <string name="delete_playlist_confirm">確定要刪除播放清單「%s」吗？</string>
 
-    <!-- Button -->
+    
     <string name="retry">重试</string>
     <string name="radio">电台</string>
     <string name="shuffle">随机播放</string>
     <string name="reset">重置</string>
 
-    <!-- Menu -->
+    
     <string name="details">详情</string>
     <string name="edit">编辑</string>
     <string name="start_radio">收听电台</string>
@@ -102,12 +94,7 @@
     <string name="search_online">在线搜索</string>
     <string name="sync">同步</string>
     <string name="advanced">高级设置</string>
-    <string name="select">选择全部</string>
-    <string name="like_all">喜欢全部</string>
-    
-    <!-- Sort menu -->
     <string name="sort_by_create_date">新建时间</string>
-    <string name="sort_by_last_updated">更新时间</string>
     <string name="sort_by_name">名称</string>
     <string name="sort_by_artist">音乐人</string>
     <string name="sort_by_year">年份</string>
@@ -116,7 +103,7 @@
     <string name="sort_by_play_time">播放时间</string>
     <string name="sort_by_custom">自定义排序</string>
 
-    <!-- Dialog -->
+    
     <string name="media_id">媒体 ID</string>
     <string name="mime_type">MIME 类型</string>
     <string name="codecs">编码</string>
@@ -143,53 +130,51 @@
     <string name="create_playlist">新建播放列表</string>
     <string name="playlist_name">名称</string>
     <string name="error_playlist_name_empty">播放列表名称不能为空</string>
-    <string name="already_in_playlist">已添加到播放列表:</string>
-
     <string name="edit_artist">编辑音乐人</string>
     <string name="artist_name">音乐人名称</string>
     <string name="error_artist_name_empty">音乐人名称不能为空</string>
 
-    <!-- Noun -->
-    <plurals name="n_song" tools:ignore="UnusedQuantity">
+    
+    <plurals name="n_song" ns0:ignore="UnusedQuantity">
         <item quantity="one">%d 首歌曲</item>
         <item quantity="other">%d 首歌曲</item>
     </plurals>
-    <plurals name="n_artist" tools:ignore="UnusedQuantity">
+    <plurals name="n_artist" ns0:ignore="UnusedQuantity">
         <item quantity="one">%d 位音乐人</item>
         <item quantity="other">%d 位音乐人</item>
     </plurals>
-    <plurals name="n_album" tools:ignore="UnusedQuantity">
+    <plurals name="n_album" ns0:ignore="UnusedQuantity">
         <item quantity="one">%d 张专辑</item>
         <item quantity="other">%d 张专辑</item>
     </plurals>
-    <plurals name="n_playlist" tools:ignore="UnusedQuantity">
+    <plurals name="n_playlist" ns0:ignore="UnusedQuantity">
         <item quantity="one">%d 个播放列表</item>
         <item quantity="other">%d 个播放列表</item>
     </plurals>
-    <plurals name="n_week" tools:ignore="MissingQuantity,UnusedQuantity">
+    <plurals name="n_week" ns0:ignore="MissingQuantity,UnusedQuantity">
         <item quantity="one">%d 周</item>
         <item quantity="other">%d 周</item>
     </plurals>
-    <plurals name="n_month" tools:ignore="UnusedQuantity">
+    <plurals name="n_month" ns0:ignore="UnusedQuantity">
         <item quantity="one">%d 月</item>
         <item quantity="other">%d 月</item>
     </plurals>
-    <plurals name="n_year" tools:ignore="UnusedQuantity">
+    <plurals name="n_year" ns0:ignore="UnusedQuantity">
         <item quantity="one">%d 年</item>
         <item quantity="other">%d 年</item>
     </plurals>
 
-    <!-- Snackbar -->
+    
     <string name="playlist_imported">已导入此播放列表</string>
     <string name="removed_song_from_playlist">从播放列表中删除「%s」</string>
     <string name="playlist_synced">播放列表同步完成</string>
     <string name="undo">撤销</string>
 
-    <!-- Player -->
+    
     <string name="lyrics_not_found">没有歌词</string>
     <string name="sleep_timer">睡眠定时器</string>
     <string name="end_of_song">这首歌曲播放完毕</string>
-    <plurals name="minute" tools:ignore="UnusedQuantity">
+    <plurals name="minute" ns0:ignore="UnusedQuantity">
         <item quantity="one">1 分钟</item>
         <item quantity="other">%d 分钟</item>
     </plurals>
@@ -198,7 +183,7 @@
     <string name="error_timeout">连接超时</string>
     <string name="error_unknown">未知错误</string>
 
-    <!-- Player action -->
+    
     <string name="action_like">喜欢</string>
     <string name="action_remove_like">取消喜欢</string>
     <string name="action_shuffle_on">开启随机播放</string>
@@ -207,14 +192,14 @@
     <string name="repeat_mode_one">重复当前歌曲</string>
     <string name="repeat_mode_all">重复当前列表</string>
 
-    <!-- Queue Title -->
+    
     <string name="queue_all_songs">全部歌曲</string>
     <string name="queue_searched_songs">搜索的歌曲</string>
 
-    <!-- Notification name -->
+    
     <string name="music_player">音乐播放器</string>
 
-    <!-- Settings -->
+    
     <string name="settings">设置</string>
     <string name="appearance">外观</string>
     <string name="enable_dynamic_theme">启用动态主题</string>
@@ -222,11 +207,6 @@
     <string name="dark_theme_on">开</string>
     <string name="dark_theme_off">关</string>
     <string name="dark_theme_follow_system">跟随系统</string>
-    <string name="player_background_style">播放背景风格</string>
-    <string name="follow_theme">跟随主题</string>
-    <string name="gradient">渐变</string>
-    <string name="enable_squiggly_slider">启用波浪滑块</string>
-    <string name="enable_swipe_thumbnail">启用轻扫缩略图更换歌曲</string>
     <string name="pure_black">纯黑</string>
     <string name="default_open_tab">默认启动选项卡</string>
     <string name="customize_navigation_tabs">自定义导航选项卡</string>
@@ -234,7 +214,6 @@
     <string name="left">靠左</string>
     <string name="center">置中</string>
     <string name="right">靠右</string>
-    <string name="lyrics_click_change">点击修改歌词</string>
     <string name="grid_cell_size">网格单元大小</string>
     <string name="small">小</string>
     <string name="big">大</string>
@@ -244,13 +223,9 @@
     <string name="content_language">默认内容语言</string>
     <string name="content_country">默认内容国家</string>
     <string name="system_default">系统默认</string>
-    <string name="proxy">代理</string>
     <string name="enable_proxy">启用代理</string>
     <string name="proxy_type">代理类型</string>
     <string name="proxy_url">代理 URL</string>
-    <string name="default_lib_chips">更改默认媒体库首页</string>
-    <string name="set_quick_picks">设置快速选择</string>
-    <string name="last_song_listened">根据上次播放的歌曲</string>
     <string name="restart_to_take_effect">重启以应用变更</string>
 
     <string name="player_and_audio">播放器与音频</string>
@@ -285,8 +260,6 @@
     <string name="clear_search_history_confirm">您确定要清除所有搜索记录吗？</string>
     <string name="enable_kugou">使用酷狗音乐提供歌词</string>
     <string name="enable_lrclib">使用 LrcLib 提供歌词</string>
-    <string name="set_first_lyrics_provider">设置首选的歌词提供服务商</string>
-
     <string name="backup_restore">备份与还原</string>
     <string name="backup">备份</string>
     <string name="restore">还原</string>
@@ -302,10 +275,4 @@
     <string name="translation_models">Translation Models</string>
     <string name="clear_translation_models">Clear translation models</string>
     
-    <string name="all_time">全部时间</string>
-    <string name="past_24_hours">过去 24 小时</string>
-    <string name="past_week">过去 1 周</string>
-    <string name="past_month">过去 1 月</string>
-    <string name="past_year">过去 1 年</string>
-    <string name="top_length">My Top 的长度</string>
-</resources>
+    </resources>
